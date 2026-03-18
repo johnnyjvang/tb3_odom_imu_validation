@@ -27,6 +27,9 @@ setup(
             'reset_results = tb3_odom_imu_validation.reset_results:main',
             'summary_report = tb3_odom_imu_validation.summary_report:main',
             'forward_straightness = tb3_odom_imu_validation.forward_straightness:main',
+            'backward_straightness = tb3_odom_imu_validation.backward_straightness:main',
+            'straightness_test = tb3_odom_imu_validation.straightness_test:main',
+            'rotation_consistency_test = tb3_odom_imu_validation.rotation_consistency_test:main',
         ],
     },
 )

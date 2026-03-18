@@ -6,10 +6,11 @@ from rclpy.node import Node
 from tb3_odom_imu_validation.result_utils import RESULTS_FILE
 
 TEST_ORDER = [
-    'imu_message_rate',
-    'imu_stationary_bias',
-    'imu_rotate_ccw_90',
-    'imu_rotate_cw_90',
+    'forward_straightness',
+    'backward_straightness',
+    'rotation_consistency_ccw',
+    'rotation_consistency_cw',
+    'out_and_back_heading',
 ]
 
 
